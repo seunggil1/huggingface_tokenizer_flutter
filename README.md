@@ -1,16 +1,17 @@
 # huggingface_tokenizer_flutter
+- huggingface_tokenizer : flutter binding
 
-A new Flutter project.
+- See URL : https://bguru.tistory.com/64
+<br>  
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## INSTALL
+1. visual studio 설치(vscode X)
+2. rust 설치 : https://www.rust-lang.org/tools/install
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```shell
+rustup target add aarch64-linux-android
+rustup target add armv7-linux-androideabi
+rustup target add i686-linux-android
+rustup target add x86_64-linux-android
+```
